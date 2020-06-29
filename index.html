@@ -1,38 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>NodeShop - Loja de Informática</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css">
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet"> 
-    </head>
-    <body>
-        <header class="cabecalho">
-            <h1 class="logo">
-                <a href="index.html" title="NodeShop - Loja de Informática">NodeShop - Loja de Informática</a>
-            </h1>
 
-            <form action="post">
-                <input type="text" placeholder="Faça uma busca">
-                <button><i class="fa fa-search fa-lg"></i></button>                
-            </form>
-        </header>
+<head>
+    <title>NodeShop - Loja de Informática</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+</head>
 
-        <nav class="menu">
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">
+            <a href="index.html" title="NodeShop - Loja de Informática">NodeShop - Loja de Informática</a>
+        </h1>
+
+        <form action="post">
+            <input type="text" placeholder="Faça uma busca">
+            <button><i class="fa fa-search fa-lg"></i></button>
+        </form>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+
+        <div class="social-icons">
+            <a href="#" class="btn-facebook"><i class="fa fa-facebook-official fa-lg"></i></a>
+            <a href="#" class="btn-google"><i class="fa fa-google fa-lg"></i></a>
+            <a href="#" class="btn-twitter"><i class="fa fa-twitter-square fa-lg"></i></a>
+        </div>
+    </nav>
+    <main class="principal">
+        <article class="sobre">
+            <h2>Sobre nós</h2>
+            <img src="img/loja.jpg" alt="NodeShop">
+            <p>
+
+                Ao contrário da crença popular, o Lorem Ipsum não é simplesmente texto aleatório. Tem raízes numa peça
+                de literatura clássica em Latim, de 45 AC, tornando-o com mais de 2000 anos. Richard McClintock, um
+                professor de Latim no Colégio Hampden-Sydney, na Virgínia, procurou uma das palavras em Latim mais
+                obscuras (consectetur) numa passagem Lorem Ipsum, e atravessando as cidades do mundo na literatura
+                clássica, descobriu a sua origem. Lorem Ipsum vem das secções 1.10.32 e 1.10.33 do "de Finibus Bonorum
+                et Malorum" (Os Extremos do Bem e do Mal), por Cícero, escrito a 45AC. Este livro é um tratado na teoria
+                da ética, muito popular durante a Renascença. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit
+                amet..." aparece de uma linha na secção 1.10.32. O pedaço mais habitual do Lorem Ipsum usado desde os
+                anos 1500 é reproduzido abaixo para os interessados. As secções 1.10.32 e 1.10.33 do "de Finibus Bonorum
+                et Malorum" do Cícero também estão
+                reproduzidos na sua forma original, acompanhados pela sua tradução em Inglês, versões da tradução de
+                1914 por H. Rackham.
+                <br><br>
+                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o
+                texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um
+                texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a
+                tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a
+                disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente
+                com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+            </p>
+        </article>
+
+        <aside class="onde-estamos">
+            <h2>Onde estamos</h2>
+            <p>Av. Jucá Leão - Centro Comercial, Itabuna - BA</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.5271867789866!2d-39.28657458578767!3d-14.79564148967844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739aaf0cc0db597%3A0x9dfa10026b580036!2sAv.%20Juca%20Le%C3%A3o%20-%20Centro%20Comercial%2C%20Itabuna%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1593440651896!5m2!1spt-BR!2sbr"></iframe>
+            
+            <h2>Contatos</h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><i class="fa fa-phone fa-lg"></i>(73)90917-3350</li>
+                <li><i class="fa fa-whatsapp fa-lg"></i>(73)90917-3350</li>
+                <li><i class="fa fa-envelope-o fa-lg"></i>nodeshop@nodeshop.com</li> 
             </ul>
+        </aside>
+    </main>
 
-            <div class="social-icons">
-                <a href="#" class="btn-facebook"><i class="fa fa-facebook-official"></i></a>
-                <a href="#" class="btn-twitter"><i class="fa fa-twitter-square"></i></a>
-                <a href="#" class="btn-google"><i class="fa fa-google"></i></a>
-            </div>
-        </nav>
-    </body>
+</body>
+
 </html>
