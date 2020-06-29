@@ -168,13 +168,59 @@ p{
     margin-right: 5px;
 }
 
+/* Newsletter */
+.newsletter{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
 
+.newsletter h3{
+    font-size: 1.8em;
+    color: #FFF;
+}
 
+.newsletter p{
+    font-size: 1.2em ;
+    color: #FFF;
+}
 
+.newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
 
+.newsletter input{
+    width: 40%;
+    float: left;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: initial;
+}
 
+.newsletter button{
+    width: 18%; /* (40% + 1%) * 2 inputs = 82% */
+    background-color: #FFF;
+    padding: 15px 10px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
 
+/* Rodapé */
+.rodape{
+   width: 100%;
+   float: left;
+   background-color: #13C7AE;
+   padding: 20px 8%; 
+}
 
-
-
-
+.rodape p{
+    color: #FFF;
+    text-align: center;
+}
